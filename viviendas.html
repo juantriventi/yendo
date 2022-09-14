@@ -8,6 +8,11 @@
         <title>Yendo - Alquileres</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+               <!--AnimateCss-->
+               <link
+               rel="stylesheet"
+               href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+             />
         <!-- Bootstrap icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -32,12 +37,13 @@
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
                                     <li><a class="dropdown-item" href="viviendas.html">Vivienda</a></li>
                                     <li><a class="dropdown-item" href="autos.html">Automoviles</a></li>
-                                    <li><a class="dropdown-item" href="botes.html">Botes</a></li>
+                                    <li><a class="dropdown-item" href="botes.html">Acuatico</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+                                    <li><a class="dropdown-item" href="guias.html">Salidas</a></li>
                                     <li><a class="dropdown-item" href="estaciones.html">Estación servicio</a></li>
                                     <li><a class="dropdown-item" href="utilidades.html">Utiles</a></li>
                                 </ul>
@@ -46,59 +52,162 @@
                     </div>
                 </div>
             </nav>
-            <!-- Page Content-->
-            <section class="py-5">
-                <div class="container px-5 my-5">
-                    <div class="text-center mb-5">
-                        <h1 class="fw-bolder">Alquiler Vivienda</h1>
-                        <p class="lead fw-normal text-muted mb-0">Solo alquiler turistico</p>
-                    </div>
-                    <div class="row gx-5">
-                        <div class="col-lg-6">
-                            <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-3 mb-3" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." />
-                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!">Project name</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="position-relative mb-5">
-                                <img class="img-fluid rounded-3 mb-3" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." />
-                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!">Project name</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="position-relative mb-5 mb-lg-0">
-                                <img class="img-fluid rounded-3 mb-3" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." />
-                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!">Project name</a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="position-relative">
-                                <img class="img-fluid rounded-3 mb-3" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." />
-                                <a class="h3 fw-bolder text-decoration-none link-dark stretched-link" href="#!">Project name</a>
+            <!-- Header-->
+          <header class="bg-dark py-5">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center justify-content-center">
+                    <div class="col-lg-8 col-xl-7 col-xxl-6">
+                        <div class="my-5 text-center text-xl-start animate__animated animate__fadeInUp">
+                            <h1 class="display-5 fw-bolder text-white mb-2">ALQUILERES TURISTICOS</h1>
+                            <p class="lead fw-normal text-white-50 mb-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque deleniti earum atque excepturi similique cupiditate!</p>
+                            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                                <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#features">Quiero ver más</a>
+
                             </div>
                         </div>
                     </div>
+                    <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center animate__animated animate__fadeInRight animate__delay-1s"><img class="img-fluid rounded-3 my-5" src="https://dummyimage.com/600x400/343a40/6c757d" alt="..." /></div>
                 </div>
-            </section>
-            <section class="py-5 bg-light">
-                <div class="container px-5 my-5">
-                    <h2 class="display-4 fw-bolder mb-4">Let's build something together</h2>
-                    <a class="btn btn-lg btn-primary" href="#!">Contact us</a>
-                </div>
-            </section>
-        </main>
+            </div>
+        </header>
+
+                 <!-- Page Content-->
+                 <section class="py-5">
+                    <div class="container px-5">
+                        <div class="card border-0 shadow rounded-3 overflow-hidden">
+                            <div class="card-body p-0">
+                                <div class="row gx-0">
+                                    <div class="col-lg-6 col-xl-5 py-lg-5">
+                                        <div class="p-4 p-md-5">
+                                            <div class="badge bg-primary bg-gradient rounded-pill mb-2">Más visitado</div>
+                                            <div class="h2 fw-bolder">Hostel Selina km12</div>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique delectus ab doloremque, qui doloribus ea officiis...</p>
+                                            <a class="stretched-link text-decoration-none" href="#!">
+                                                Ver más
+                                                <i class="bi bi-arrow-right"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-xl-7"><div class="bg-featured-blog" style="background-image: url('https://dummyimage.com/700x350/343a40/6c757d')"></div></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+               
+                <!-- Blog preview section-->
+                <section class="py-0">
+                    <div class="container px-5">
+                        <div class="row gx-5">
+                            <div class="col-lg-4 mb-5">
+                                <div class="card shadow border-0">
+                                    <img class="card-img-top" src="https://dummyimage.com/600x350/ced4da/6c757d" alt="..." />
+                                    <div class="card-body p-4">
+                                        <div class="badge bg-primary bg-gradient rounded-pill mb-2"></div>
+                                        <a class="text-decoration-none link-dark stretched-link" href="#!"><div class="h5 card-title mb-3">Departamento km2</div></a>
+                                        <p class="card-text mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quidem.</p>
+                                        <a class="stretched-link text-decoration-none" href="#!">
+                                            Ver más
+                                            <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                    </div>
+        
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-5">
+                                <div class="card  shadow border-0">
+                                    <img class="card-img-top" src="https://dummyimage.com/600x350/ced4da/6c757d" alt="..." />
+                                    <div class="card-body p-4">
+                                        <div class="badge bg-primary bg-gradient rounded-pill mb-2"></div>
+                                        <a class="text-decoration-none link-dark stretched-link" href="#!"><div class="h5 card-title mb-3">Villa Sofia</div></a>
+                                        <p class="card-text mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quidem.</p>
+                                        <a class="stretched-link text-decoration-none" href="#!">
+                                            Ver más
+                                            <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                    </div>
+        
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-5">
+                                <div class="card  shadow border-0">
+                                    <img class="card-img-top" src="https://dummyimage.com/600x350/ced4da/6c757d" alt="..." />
+                                    <div class="card-body p-4">
+                                        <div class="badge bg-primary bg-gradient rounded-pill mb-2"></div>
+                                        <a class="text-decoration-none link-dark stretched-link" href="#!"><div class="h5 card-title mb-3">Arelauquen bungalows</div></a>
+                                        <p class="card-text mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quidem.</p>
+                                        <a class="stretched-link text-decoration-none" href="#!">
+                                            Ver más
+                                            <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                    </div>
+        
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-5">
+                                <div class="card  shadow border-0">
+                                    <img class="card-img-top" src="https://dummyimage.com/600x350/ced4da/6c757d" alt="..." />
+                                    <div class="card-body p-4">
+                                        <div class="badge bg-primary bg-gradient rounded-pill mb-2"></div>
+                                        <a class="text-decoration-none link-dark stretched-link" href="#!"><div class="h5 card-title mb-3">La Pampita</div></a>
+                                        <p class="card-text mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quidem.</p>
+                                        <a class="stretched-link text-decoration-none" href="#!">
+                                            Ver más
+                                            <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                    </div>
+        
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-5">
+                                <div class="card  shadow border-0">
+                                    <img class="card-img-top" src="https://dummyimage.com/600x350/ced4da/6c757d" alt="..." />
+                                    <div class="card-body p-4">
+                                        <div class="badge bg-primary bg-gradient rounded-pill mb-2"></div>
+                                        <a class="text-decoration-none link-dark stretched-link" href="#!"><div class="h5 card-title mb-3">Hostel km6</div></a>
+                                        <p class="card-text mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quidem.</p>
+                                        <a class="stretched-link text-decoration-none" href="#!">
+                                            Ver más
+                                            <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                    </div>
+        
+                                </div>
+                            </div>
+                            <div class="col-lg-4 mb-5">
+                                <div class="card  shadow border-0">
+                                    <img class="card-img-top" src="https://dummyimage.com/600x350/ced4da/6c757d" alt="..." />
+                                    <div class="card-body p-4">
+                                        <div class="badge bg-primary bg-gradient rounded-pill mb-2"></div>
+                                        <a class="text-decoration-none link-dark stretched-link" href="#!"><div class="h5 card-title mb-3">La Luna</div></a>
+                                        <p class="card-text mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quidem.</p>
+                                        <a class="stretched-link text-decoration-none" href="#!">
+                                            Ver más
+                                            <i class="bi bi-arrow-right"></i>
+                                        </a>
+                                    </div>
+        
+                                </div>
+                            </div>
+
+                        </div>
+        
+                    </div>
+                </section>
+            </main>
+
         <!-- Footer-->
         <footer class="bg-dark py-4 mt-auto">
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Your Website 2022</div></div>
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Yendo 2022</div></div>
                     <div class="col-auto">
-                        <a class="link-light small" href="#!">Privacy</a>
+                        <a class="link-light small" href="#!">Privacidad</a>
                         <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="#!">Terms</a>
+                        <a class="link-light small" href="#!">Terminos</a>
                         <span class="text-white mx-1">&middot;</span>
-                        <a class="link-light small" href="#!">Contact</a>
+                        <a class="link-light small" href="#!">Contacto</a>
+                        
                     </div>
                 </div>
             </div>
